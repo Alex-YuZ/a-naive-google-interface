@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* box-sizing: border-box; */
+}
+
+.main {
+  /* margin-top: 100px; */
+  margin: 100px auto;
+}
+
+.logo-img {
+  display: block;
+  width: 300px;
+  margin: 0 auto 40px auto;
+}
+
+.search-input {
+  display: block;
+  width: 500px;
+  height: 40px;
+  margin: 0 auto 20px auto;
+  border: 2px solid #dfe1e5;
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 30px;
+}
+
+.btns-container {
+  display: block;
+  width: 290px;
+  margin: 0 auto;
+}
+
+.btn {
+  width: 140px;
+  background-color: #dfe1e5;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+}

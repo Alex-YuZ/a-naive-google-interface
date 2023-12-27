@@ -20,8 +20,8 @@ body {
 
 .search-input {
   display: block;
-  width: 500px;
-  height: 40px;
+  width: 600px;
+  height: 50px;
   margin: 0 auto 20px auto;
   border: 2px solid #dfe1e5;
   font-size: 20px;
@@ -31,8 +31,15 @@ body {
 
 .btns-container {
   display: block;
-  width: 290px;
-  margin: 0 auto;
+  /* width: 290px; */
+  /* margin: 0 auto; */
+
+  /* ====
+  the following code has
+  the same effect as the above ==
+  ===== */
+  width: 100%;
+  text-align: center;
 }
 
 .btn {
@@ -41,4 +48,8 @@ body {
   border: none;
   padding: 8px 16px;
   border-radius: 6px;
+}
+
+footer {
+  text-align: center;
 }
